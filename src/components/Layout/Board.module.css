@@ -1,3 +1,5 @@
 .board {
   background-color: darkgrey;
+  list-style: none;
+  height: 800px;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 // import prices from './Prices';
 import Asset from '../Layout/Custom/Asset';
+import classes from './Assets.module.css';
 
 const Assets = (props) => {
   const AssetsArray = [
@@ -20,7 +21,7 @@ const Assets = (props) => {
 
   return (
     <>
-      <ul>
+      <ul className={classes.assets}>
         {AssetsArray.map((asset) => {
           return (
             <Asset
