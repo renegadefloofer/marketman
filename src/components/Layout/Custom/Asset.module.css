@@ -1,0 +1,10 @@
+.asset {
+  font: inherit;
+  max-width: 80%;
+  margin: auto;
+  padding: 1.5rem;
+  border: 1px solid #110f10;
+  color: white;
+  background: #110f10;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+}
