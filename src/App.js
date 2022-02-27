@@ -8,7 +8,6 @@ function App() {
       <Board>
         <Assets />
       </Board>
-      <div>Hello1</div>
     </div>
   );
 }
