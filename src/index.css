@@ -9,3 +9,10 @@ html {
 body {
   margin: 0;
 }
+
+.main {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

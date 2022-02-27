@@ -1,0 +1,7 @@
+.mainnav {
+  color: rgba(136, 248, 121, 0.37);
+  background-color: rgb(46, 34, 34);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

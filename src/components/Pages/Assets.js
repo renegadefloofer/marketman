@@ -19,7 +19,7 @@ const Assets = (props) => {
   ];
 
   return (
-    <div>
+    <>
       <ul>
         {AssetsArray.map((asset) => {
           return (
@@ -31,7 +31,7 @@ const Assets = (props) => {
           );
         })}
       </ul>
-    </div>
+    </>
   );
 };
 

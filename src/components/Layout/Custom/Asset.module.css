@@ -1,10 +1,11 @@
 .asset {
   font: inherit;
+  text-align: center;
   max-width: 80%;
-  margin: auto;
+  margin: 0.8rem auto;
   padding: 1.5rem;
-  border: 1px solid #110f10;
-  color: white;
+  border: 1px solid #110f1048;
+  color: rgb(135, 248, 121);
   background: #110f10;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
 }
