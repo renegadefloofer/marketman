@@ -3,5 +3,6 @@
   padding: 20px;
   color: var(--c2);
   background: var(--bg);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  border: solid var(--c2) 1px;
+  border-radius: 10px;
 }
