@@ -23,8 +23,9 @@ function App() {
       link: '',
     },
   ];
+
   return (
-    <div className="main">
+    <div>
       <MainNav navItems={navItems} />
       <Board>
         <Assets />

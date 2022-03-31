@@ -1,5 +1,6 @@
 import React from 'react';
 // import prices from './Prices';
+import Card from '../Layout/Card';
 import Asset from '../Layout/Custom/Asset';
 import classes from './Assets.module.css';
 
@@ -9,7 +10,7 @@ const Assets = (props) => {
       assetName: 'BTC',
       accountName: 'elder',
       amount: 1,
-      amountInUSD: 38000,
+      amountInUSD: 41000,
     },
     {
       assetName: 'ETH',
@@ -20,19 +21,19 @@ const Assets = (props) => {
   ];
 
   return (
-    <>
-      <ul className={classes.assets}>
-        {AssetsArray.map((asset) => {
-          return (
+    <ul className={classes.assets}>
+      {AssetsArray.map((asset) => {
+        return (
+          <Card>
             <Asset
               name={asset.assetName}
               amount={asset.amount}
               price={asset.USDMultiplier}
             ></Asset>
-          );
-        })}
-      </ul>
-    </>
+          </Card>
+        );
+      })}
+    </ul>
   );
 };
 

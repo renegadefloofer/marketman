@@ -1,5 +1,9 @@
 .board {
-  background-color: darkgrey;
+  background-color: var(--c3);
   list-style: none;
-  height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
 }

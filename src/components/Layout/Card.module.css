@@ -1,10 +1,7 @@
 .card {
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  box-shadow: 5px 5px 10px var(--bg);
+  border: 2px solid var(--bg);
+  width: 80%;
   border-radius: 10px;
-  border: 2px solid black;
-  outline: #566e57 solid 10px;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
+  margin: 20px auto;
 }
